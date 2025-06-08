@@ -14,56 +14,55 @@
     />
   </head>
   <body>
-    <div class="container">
-      <div class="calculator">
-        <textarea id="input" rows="2" cols="20"></textarea>
-        <div class="content">
-          <div class="boxes">
-            <button onclick="clearValue()">C</button>
-            <button onclick="getTexts(`-`)">+/-</button>
-            <button onclick="backspace()">
-              <i class="fa-solid fa-delete-left"></i>
-            </button>
-            <button class="button1" onclick="getText(`/`)">
-              <i class="fa-solid fa-divide"></i>
-            </button>
-          </div>
-          <div class="boxes">
-            <button class="b2" onclick="getTexts(7)">7</button>
-            <button class="b2" onclick="getTexts(8)">8</button>
-            <button class="b2" onclick="getTexts(9)">9</button>
-            <button class="button1" onclick="getText(`*`)">
-              <i class="fa-solid fa-xmark"></i>
-            </button>
-          </div>
-          <div class="boxes">
-            <button class="b2" onclick="getTexts(4)">4</button>
-            <button class="b2" onclick="getTexts(5)">5</button>
-            <button class="b2" onclick="getTexts(6)">6</button>
-            <button class="button1" onclick="getText(`-`)">
-              <i class="fa-solid fa-minus"></i>
-            </button>
-          </div>
-          <div class="boxes">
-            <button class="b2" onclick="getTexts(1)">1</button>
-            <button class="b2" onclick="getTexts(2)">2</button>
-            <button class="b2" onclick="getTexts(3)">3</button>
-            <button class="button1" onclick="getText(`+`)">
-              <i class="fa-solid fa-plus"></i>
-            </button>
-          </div>
-          <div class="boxes">
-            <button class="b2" onclick="getTexts(0)">0</button>
-            <button class="b2" onclick="getTexts(`.`)">.</button>
-            <button class="b2" onclick="getText(`%`)">%</button>
-            <button class="button1" onclick="calculate()">
-              <i class="fa-solid fa-equals"></i>
-            </button>
-          </div>
+    <div class="calculator">
+      <textarea id="input" rows="2" cols="20"></textarea>
+      <div class="content">
+        <div class="boxes">
+          <button onclick="clearValue()">C</button>
+          <button onclick="getTexts(`-`)">+/-</button>
+          <button onclick="backspace()">
+            <i class="fa-solid fa-delete-left"></i>
+          </button>
+          <button class="button1" onclick="getText(`/`)">
+            <i class="fa-solid fa-divide"></i>
+          </button>
         </div>
-        <div class="line"></div>
+        <div class="boxes">
+          <button class="b2" onclick="getTexts(7)">7</button>
+          <button class="b2" onclick="getTexts(8)">8</button>
+          <button class="b2" onclick="getTexts(9)">9</button>
+          <button class="button1" onclick="getText(`*`)">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="boxes">
+          <button class="b2" onclick="getTexts(4)">4</button>
+          <button class="b2" onclick="getTexts(5)">5</button>
+          <button class="b2" onclick="getTexts(6)">6</button>
+          <button class="button1" onclick="getText(`-`)">
+            <i class="fa-solid fa-minus"></i>
+          </button>
+        </div>
+        <div class="boxes">
+          <button class="b2" onclick="getTexts(1)">1</button>
+          <button class="b2" onclick="getTexts(2)">2</button>
+          <button class="b2" onclick="getTexts(3)">3</button>
+          <button class="button1" onclick="getText(`+`)">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+        </div>
+        <div class="boxes">
+          <button class="b2" onclick="getTexts(0)">0</button>
+          <button class="b2" onclick="getTexts(`.`)">.</button>
+          <button class="b2" onclick="getText(`%`)">%</button>
+          <button class="button1" onclick="calculate()">
+            <i class="fa-solid fa-equals"></i>
+          </button>
+        </div>
       </div>
+      <div class="line"></div>
     </div>
+
     <script src="./main.js"></script>
   </body>
 </html>
