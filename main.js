@@ -52,7 +52,7 @@ function getTexts(param) {
     }
 
     input.value += param;
-  } else if (param >= "0" && param <= "9") {
+  } else  {
     input.value += param;
   }
 }
